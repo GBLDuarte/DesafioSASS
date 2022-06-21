@@ -1,0 +1,55 @@
+#index {
+    .primeraParte {
+        grid-area: primeraParte;
+        padding: 3rem;
+
+        .textoPrimera {
+            padding: 1.5rem;
+            text-align: center;
+            font-family: 'Heebo', sans-serif;
+            font-size: 18px;
+
+            .tituloPrimera {
+                padding-bottom: 1rem;
+            }
+
+            p {
+                .textoResaltado {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    .carousel {
+        grid-area: carousel;
+    }
+
+    .listaTorneos {
+        grid-area: listaTorneos;
+        display: flex;
+        background-image: linear-gradient(90deg, rgba(6, 16, 36, 1) 0%, rgba(24, 44, 80, 1) 25%, rgba(24, 44, 80, 1) 50%, rgba(24, 44, 80, 1) 75%, rgba(6, 16, 36, 1) 100%);
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        padding: 3rem;
+        font-family: 'Heebo', sans-serif;
+        font-size: 18px;
+
+        .tituloLista {
+            padding: 1rem;
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            max-width: 800px;
+            flex-wrap: wrap;
+            justify-content: center;
+            li {
+                padding: .5rem;
+            }
+        }
+    }
+}

@@ -1,3 +1,4 @@
+// Reset
 * {
     margin: 0;
     padding: 0;
@@ -8,5 +9,19 @@
     background-color: rgb(192, 192, 192);
 }
 
+/* GRID de la pagina INDEX */
+.padreIndex {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1.5fr 1fr;
+    grid-template-areas:
+        "header header header header"
+        ". primeraParte primeraParte ."
+        ". primeraParte primeraParte ."
+        "carousel carousel carousel carousel"
+        "listaTorneos listaTorneos listaTorneos listaTorneos"
+        "footer footer footer footer";
+}
+
 @import './secciones/header.scss';
 @import './secciones/footer.scss';
+@import './secciones/index';
