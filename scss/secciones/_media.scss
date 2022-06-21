@@ -1,0 +1,66 @@
+@media (max-width: 567px) {
+    #index {
+        .padreIndex {
+            grid-template-columns: 1fr;
+            grid-template-areas:
+                "header"
+                "primeraParte"
+                "carousel"
+                "listaTorneos"
+                "footer";
+        }
+
+        // header
+        .header {
+            nav {
+                .menuNav {
+                    .palabraNav {
+                        display: none;
+                    }
+                }
+
+                .menuNav2 {
+                    background-color: #182c50;
+                    display: flex;
+                    margin: 0;
+                    font-size: 16px;
+                    justify-content: space-around;
+                }
+            }
+        }
+
+        // index 
+        .primeraParte {
+            .textoPrimera {
+                font-size: 20px;
+                padding: 0;
+            }
+        }
+        
+        .listaTorneos {
+            padding: 2rem 0 2rem 0;
+            ul {
+                margin: 0;
+                padding: 0;
+            }
+        }
+
+        // footer
+
+        .footer {
+            .textoFooter {
+                display: block;
+                .listaFooter {
+                    ul {
+                        width: auto;
+                    }
+                }
+                .textoCopy {
+                    width: 100%;
+                    margin-top: 1rem;
+                }
+            }
+        }
+
+    }
+}
