@@ -1,0 +1,46 @@
+.header {
+    grid-area: header;
+    background-image: linear-gradient(90deg, rgba(6, 16, 36, 1) 0%, rgba(24, 44, 80, 1) 25%, rgba(24, 44, 80, 1) 50%, rgba(24, 44, 80, 1) 75%, rgba(6, 16, 36, 1) 100%);
+
+    .menuNav {
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+        align-items: center;
+        list-style: none;
+
+        .palabraNav {
+            margin: auto 6rem;
+        }
+
+        img {
+            width: 150px;
+            padding: .5rem;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-family: 'Heebo', sans-serif;
+
+            &:hover {
+                color: rgb(58, 85, 240);
+            }
+        }
+    }
+    
+
+    .menuNav2 {
+        display: none;
+        justify-content: center;
+        font-size: 1.5rem;
+        align-items: center;
+        list-style: none;
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-family: 'Heebo', sans-serif;
+        }
+    }
+}
